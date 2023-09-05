@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "exercicio10"
 // Disciplina  :  [Linguagem e Lógica de Programação]
 // Professor   : [Nome do Professor]
 // Descrição   : Aqui você descreve o que o programa faz! (função)

@@ -1,17 +1,15 @@
-algoritmo "Nome do Programa"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+algoritmo "exercicio6"
 var
-
-teste: caractere
-
+    valorDaNota : real
+    numeroDeNotas: inteiro
+    media: real
 inicio
+    escreval("Quantas notas são?")
+    leia(numeroDeNotas)
+    enquanto (numeroDeNotas >) faca
+        escreval ("true")
+    fimenquanto
 
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
+
 
 fimalgoritmo

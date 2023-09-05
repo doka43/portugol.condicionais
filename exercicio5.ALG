@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "exercicio5"
 var
    diasDeAtraso: inteiro
    valorDoAtraso: real
@@ -12,5 +12,5 @@ inicio
       valorDoAtraso <- 2.5
    fimse
    totalDoMulta <- valorDoAtraso * diasDeAtraso
-    escreval("O valor da sua multa será de:",totalDoMulta)
+   escreval("O valor da sua multa será de:",totalDoMulta)
 fimalgoritmo

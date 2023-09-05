@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "exercicio4"
 var
    numeroA: real
    numeroB: real
