@@ -1,17 +1,16 @@
 algoritmo "Nome do Programa"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
 var
-
-teste: caractere
-
+   diasDeAtraso: inteiro
+   valorDoAtraso: real
+   totalDoMulta: real
 inicio
-
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
-
+   escreval("Foram quantos dias de atraso? ")
+   leia(diasDeAtraso)
+   se (diasDeAtraso >= 7) entao
+      valorDoAtraso <- 5.0
+   senao
+      valorDoAtraso <- 2.5
+   fimse
+   totalDoMulta <- valorDoAtraso * diasDeAtraso
+    escreval("O valor da sua multa será de:",totalDoMulta)
 fimalgoritmo
