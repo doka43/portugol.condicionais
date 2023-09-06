@@ -1,17 +1,25 @@
 algoritmo "exercicio11"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
 var
-
-teste: caractere
-
+    valorDeCompra: real
+    valorDeVenda: real
+    
 inicio
-
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
-
+    escreval("qual é o valor da compra?")
+    leia(valorDeCompra)
+    se(valorDeCompra < 10)entao
+    valorDeVenda <- (valorDeCompra * 0.7)
+    senão
+        se(valorDeCompra >= 10 ) e (valorDeCompra < 30)entao
+        valorDeVenda <- (valorDeCompra * 0.5)
+        senão
+            se(valorDeCompra >= 30 ) e (valorDeCompra < 50)entao
+                valorDeVenda <- (valorDeCompra * 0.4)
+                senão
+                    se(valorDeCompra >= 50)entao
+                    valorDeVenda <- (valorDeCompra * 0.3)
+                    fimse
+                fimse
+            fimse
+        fimse
+    escreval("o valor da venda será de ",valorDeVenda)
 fimalgoritmo
