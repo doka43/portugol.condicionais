@@ -4,9 +4,9 @@ var
 inicio
     escreval("digite um número: ")
     leia(numero)
-    SE ((numero % 2) = 0)ENTAO
-        escreva("este número é par!")
-    SENAO
-        escreva("este número é impar!")
-    FIMSE
+    se ((numero % 2) = 0) entao
+        escreval ("este número é par")
+    senao
+        escreval ("este número é impar")
+    fimse
 fimalgoritmo

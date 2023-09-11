@@ -4,12 +4,12 @@ var
 inicio
    escreval("qual a sua idade? ")
    leia(idade)
-   se idade >= 18 então
+   se idade >= 18 entao
       escreval("você é um eleitor obrigatório")
-   senão
-      se idade >= 65 então
+   senao
+      se idade >= 65 entao
          escreval("você é um eleitor facultativo")
-      senão
+      senao
          escreval("você não é um eleitor ainda")
       fimse
    fimse
